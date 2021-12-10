@@ -84,6 +84,10 @@ button {
   display: block;
 }
 
+.d-none {
+  display: none;
+}
+
 .m-0 {
   margin: 0!important;
 }
@@ -184,9 +188,9 @@ button {
   .f-m-42 {font-size: 5.6vw !important; /* 42px */ }
   .f-m-45 {font-size: 6vw !important; /* 45px */ }
   .f-m-47 {font-size: 6.26vw !important; /* 47px */ }
-  .f-d-48 {font-size: 6.4vw !important; /* 48px */ }
+  .f-m-48 {font-size: 6.4vw !important; /* 48px */ }
   .f-m-50 {font-size: 6.66vw !important; /* 50px */ }
-  .f-d-52 {font-size: 6.93vw !important; /* 52px */ }
+  .f-m-52 {font-size: 6.93vw !important; /* 52px */ }
   .f-m-55 {font-size: 7.33vw !important; /* 55px */ }
   .f-m-60 {font-size: 8vw !important; /* 60px */ }
   .f-m-65 {font-size: 8.66vw !important; /* 65px */ }
