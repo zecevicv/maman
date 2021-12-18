@@ -19,6 +19,14 @@ body {
   color: #0066CB;
 }
 
+.text-blue-dark {
+  color: #00296D;
+}
+
+.text-green {
+  color: #31A201;
+}
+
 .lined {
   display: flex;
   align-items: center;
@@ -1301,5 +1309,179 @@ body {
   
   .footer-main .back-to-top img {
     width: 9.34vw;
+  }
+}
+
+/* #Investors Relations Numbers
+================================================== */
+.investors-relations-numbers {
+  padding: 5.72vw 0 6.77vw 0;
+}
+
+.investors-relations-numbers .container {
+  width: 76%;
+}
+
+.investors-relations-numbers ul {
+  display: flex;
+  margin: 2.5vw 0;
+}
+
+.investors-relations-numbers ul li {
+  flex: 0 0 25%;
+  padding-right: 1.3vw;
+  padding-left: 1vw;
+}
+
+.investors-relations-numbers ul li:not(:last-child) {
+  border-left: 3px solid #00296D;
+}
+
+.investors-relations-numbers ul li div {
+  display: flex;
+  align-items: baseline;
+}
+
+.investors-relations-numbers ul li:first-child div {
+  align-items: center;
+}
+
+.investors-relations-numbers ul li div > *:first-child {
+  margin-left: 1vw;
+}
+
+.investors-relations-numbers ul li div img {
+  height: 1.5vw;
+}
+
+@media (max-width: 1023.98px) {
+  .investors-relations-numbers {
+    padding: 10vw 0 15.2vw 0;
+  }
+  
+  .investors-relations-numbers .container {
+    width: 90%;
+  }
+  
+  .investors-relations-numbers ul {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 3.5vw 0;
+  }
+  
+  .investors-relations-numbers ul li {
+    flex: 0 0 57%;
+    padding-right: 2.8vw;
+    padding-left: 0;
+  }
+
+  .investors-relations-numbers ul li:nth-child(1),
+  .investors-relations-numbers ul li:nth-child(3) {
+    padding-right: 0;
+    flex: 0 0 43%;
+  }
+
+  .investors-relations-numbers ul li:nth-child(1),
+  .investors-relations-numbers ul li:nth-child(2) {
+    margin-bottom: 9.33vw;
+  }
+  
+  .investors-relations-numbers ul li:not(:last-child) {
+    border-left: 1.5px solid #00296D;
+  }
+
+  .investors-relations-numbers ul li:nth-child(2) {
+    border-left: none;
+  }
+  
+  .investors-relations-numbers ul li:first-child div {
+    display: block;
+  }
+  
+  .investors-relations-numbers ul li div > *:first-child {
+    margin-left: 2vw;
+  }
+  
+  .investors-relations-numbers ul li div img {
+    height: 3.97vw;
+  }
+}
+
+/* #Investors Relations Links
+================================================== */
+.investors-relations-links {
+  padding: 4.16vw 0 10.4vw 0;
+  position: relative;
+  color: white;
+}
+
+.investors-relations-links::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 21.35vw;
+  background-image: linear-gradient(to bottom left, #01164F, #013884);
+  z-index: -1;
+}
+
+.investors-relations-links .container {
+  width: 81.7%;
+}
+
+.investors-relations-links h2 {
+  text-align: center;
+  margin-bottom: 4.16vw;
+}
+
+.investors-relations-links ul {
+  display: flex;
+
+}
+
+.investors-relations-links ul li {
+  position: relative;
+  flex: 0 0 33.333333%;
+}
+
+.investors-relations-links ul li .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.investors-relations-links ul li img {
+  width: 100%;
+  height: 21.66vw;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 1023.98px) {
+  .investors-relations-links {
+    padding: 9.34vw 0 16.65vw 0;
+  }
+  
+  .investors-relations-links::after {
+    height: 76.4vw;
+  }
+  
+  .investors-relations-links .container {
+    width: 85.5%;
+  }
+  
+  .investors-relations-links h2 {
+    margin-bottom: 7vw;
+    line-height: 1.2;
+  }
+  
+  .investors-relations-links ul {
+    display: block;
+  }
+  
+  .investors-relations-links ul li img {
+    height: 29.9vw;
   }
 }
